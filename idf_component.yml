@@ -1,0 +1,3 @@
+description: "rlottie is a platform independent standalone library for the Lottie animation format."
+dependencies:
+  idf: ">=5.0.0"

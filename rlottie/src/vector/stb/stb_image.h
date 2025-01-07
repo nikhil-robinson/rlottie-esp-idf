@@ -953,7 +953,7 @@ static void *stbi__malloc_mad4(int a, int b, int c, int d, int add)
 #endif
 
 #define stbi__errpf(x,y)   ((float *)(size_t) (stbi__err(x,y)?NULL:NULL))
-#define stbi__errpuc(x,y)  ((unsigned char *)(size_t) (stbi__err(x,y)?NULL:NULL))
+#define stbi__errpuc(x,y)  ((unsigned char *)(size_t) (stbi__err(x,y), NULL))
 
 STBIDEF void stbi_image_free(void *retval_from_stbi_load)
 {

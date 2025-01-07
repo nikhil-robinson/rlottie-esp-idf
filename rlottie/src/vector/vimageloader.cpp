@@ -80,7 +80,7 @@ struct VImageLoader::Impl {
         // No sym links in ESP idf
         // dl_handle = dlopen(LOTTIE_IMAGE_MODULE_PLUGIN, RTLD_LAZY);
         // return (dl_handle == nullptr);
-        return true
+        return true;
     }
 # endif  // _WIN32
 #else  // LOTTIE_IMAGE_MODULE_SUPPORT
